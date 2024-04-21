@@ -1,0 +1,53 @@
+  body {
+    background-color: beige;
+  }
+
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+
+    gap: 10px;
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+
+    font-size: 15px;
+
+  }
+
+  .Paginate-css {
+    display: flex;
+    gap: 4px;
+  }
+
+  .Paginate-css a {
+    background-color: black;
+    font-size: 12px;
+    padding: 10px;
+    color: beige
+  }
+
+  .Paginate-css a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+  }
+
+  li a:hover {
+    cursor: pointer;
+    color: blue;
+  }
+
+  .Repos-css {
+    margin-top: 170px;
+  }
+
+  .Repos-css a {
+    color: brown;
+  }
+
+  .Repos-css a:hover {
+    color: limegreen;
+  }
