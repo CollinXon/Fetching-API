@@ -35,6 +35,8 @@
     font-weight: bold;
   }
 
+  .Paginate-css a:focus{background-color: red;}
+
   li a:hover {
     cursor: pointer;
     color: blue;

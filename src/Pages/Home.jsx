@@ -1,7 +1,8 @@
-        const Home = () => {
+       import image from "../assets/images/my-image.jpg";
+       const Home = () => {
         return (
         <div className="Home-css">
-        <img src="src/images/FB_IMG_1705885966844.jpg"></img>
+        <img src={image} alt= "My Image"/>
 
         <h4>Collins Ennah</h4>
 
